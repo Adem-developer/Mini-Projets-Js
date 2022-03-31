@@ -1,0 +1,31 @@
+Formulaire et un tableau dans une page
+
+Formulaire envoyé -> valider les informations
+
+Ajouter les informations validées à un tableau en dessous
+
+
+Formulaire :
+ 
+	-> Pseudo 20char max
+	-> Age chiffre uniquement
+	-> Mot de passe
+	-> Verification du mot de passe
+
+Tableau :
+
+	-> ID : numéro d'inscription de la personne
+	-> Pseudo
+	-> Age
+	-> Date et heure d'envoi
+	-> Hash du mot de passe
+	-> Bouton pour supprimer une ligne ( sauf l'ID )
+
+à l'envoi
+ 
+	-> Données conformes sinon avertir l'utilisateur
+	-> Deux mots de passe identiques
+	-> Info obligatoire à rappeler ( * (Pseudo, Mdp, Verif Mdp) )
+	-> Formulaire vidé, sauf s'il n'est pas conforme
+	-> Pas de faille XSS
+ 

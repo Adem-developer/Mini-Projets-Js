@@ -1,0 +1,39 @@
+quand t'appuies sur un endroit de la page, le curseur est le milieu du rond,
+quand tu scroll vers le haut, la taille du rond augmente
+quand tu scroll vers le bas, la taille du rond diminue
+
+
+
+-detecter le click de souris sur la page // C'EST FAIT
+
+https://www.youtube.com/watch?v=8IUDIWMH_HU
+
+
+
+-afficher un rond ( couleur aléatoire ) // C'EST FAIT 
+
+sur le curseur ( curseur au centre )  // C'EST FAIT
+
+
+-scroll haut, taille du disque augmente / pareille pour le bas !!!!!!!!!
+
+
+-zindex h1 / js C'EST FAIT
+
+
+Mise à jour 20/01 23:15
+
+
+
+à faire : 
+
+
+- La taille du disque doit s'afficher en haut à gauche de la page
+(pour l'instant la taille n'est pas assigné avec le disque) // C4EST FAIT
+
+- La taille du disque change avec le scroll 
+(vers le haut = ça augmente, vers le bas = ça diminue) // c4EST FAIT
+
+
+snake fini . 
+

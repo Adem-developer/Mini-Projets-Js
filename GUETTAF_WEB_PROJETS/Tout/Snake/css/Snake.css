@@ -1,0 +1,88 @@
+html,
+
+body 
+{
+    height: 100%;
+    margin: 0;
+    background-image: url(../fond_kira.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline;
+}
+/*
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+h1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+   
+}
+
+
+
+
+
+/*button
+{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    background: rgb(236, 45, 45);
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-delay: ease .2s;
+}
+
+button:hover
+{
+    color: #fff;
+    background: rgb(196, 5, 5);
+    border-radius: 2px;
+}*/
+
+
+canvas
+{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+body
+{
+    animation: transitionIn 1.5s;
+}
+
+@keyframes transitionIn
+{
+    from
+    {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to
+    {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

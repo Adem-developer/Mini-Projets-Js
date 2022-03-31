@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Formulaire & Tableau</title>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="../kira-adem.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Formulaire.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+</head>
+
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h2>Formulaire</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Pseudo *</label>
+                <input type="text" maxlength="20" placeholder="taio_dz" id="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            
+            <div class="form-control">
+                <label for="username">Age</label>
+                <input type="number" placeholder="18" id="age" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="username">Mot de passe *</label>
+                <input type="password" placeholder="*****" id="password"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="username">Vérification du Mot de passe *</label>
+                <input type="password" placeholder="*****" id="verif"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+
+            <input class="formage" value="Soumettre" type="button" onclick="allcheck(); idcount();checkInputs();">
+        </form>
+
+        <div id="Tableau"><h2>Tableau</h2></div>
+        
+    </div>
+    
+</body>
+
+
+    <script src="Formulaire.js"></script>
+    
+</html>
